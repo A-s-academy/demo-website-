@@ -84,7 +84,7 @@ export default function PermanentDrawerLeft() {
 ## Setup
 
 
-You will need to install Material-UI by running npm install @material-ui/core. You can then include this code in your React app and deploy it to Github Pages using the steps outlined in the Github Pages documentation.
+You will need to install Material-UI by running `npm install @material-ui/core`. You can then include this code in your React app and deploy it to Github Pages using the steps outlined in the Github Pages documentation.
 
 
 
@@ -93,17 +93,17 @@ Here are the steps to set up a Material-UI portfolio website with a side menu us
 
 Create a new Github repository to host your portfolio website.
 
-Set up a local development environment for your React.js app by creating a new directory and running npm init to initialize a new npm project.
+Set up a local development environment for your React.js app by creating a new directory and running `npm init` to initialize a new npm project.
 
-Install Material-UI by running npm install @material-ui/core.
+Install Material-UI by running `npm install @material-ui/core`.
 
-Create a new file called index.js and copy the code I provided in my previous answer into this file.
+Create a new file called `index.js` and copy the code I provided in my previous answer into this file.
 
-In the terminal, run npm start to start a local development server and see your app in action.
+In the terminal, run `npm start` to start a local development server and see your app in action.
 
-Once you're happy with how your website looks and functions, it's time to deploy it to Github Pages. Create a new branch called gh-pages and push it to your Github repository.
+Once you're happy with how your website looks and functions, it's time to deploy it to Github Pages. Create a new branch called `gh-pages` and push it to your Github repository.
 
-In your Github repository's settings, under the Github Pages section, select the gh-pages branch as the source and save your changes.
+In your Github repository's settings, under the Github Pages section, select the `gh-pages` branch as the source and save your changes.
 
 Wait a few moments for Github Pages to build your website and then visit the URL provided in the Github Pages section to see your live portfolio website!
 
