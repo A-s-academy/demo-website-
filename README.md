@@ -81,14 +81,14 @@ export default function PermanentDrawerLeft() {
 
 
 
-##Setup
+## Setup
 
 
 You will need to install Material-UI by running npm install @material-ui/core. You can then include this code in your React app and deploy it to Github Pages using the steps outlined in the Github Pages documentation.
 
 
 
-#elaborate
+# elaborate
 Here are the steps to set up a Material-UI portfolio website with a side menu using Github Pages:
 
 Create a new Github repository to host your portfolio website.
