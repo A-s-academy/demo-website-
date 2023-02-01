@@ -1,0 +1,34 @@
+name: Deploy to Github Pages
+
+on:
+
+  push:
+
+    branches:
+
+      - main
+
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout code
+
+      uses: actions/checkout@v2
+
+    - name: Build and deploy
+
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+
+      env:
+
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+        BRANCH: gh-pages
+
+        FOLDER: build
+
